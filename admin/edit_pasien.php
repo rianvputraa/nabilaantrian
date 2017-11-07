@@ -30,7 +30,7 @@ while($pasien = mysqli_fetch_array($querypasien)){
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <b><p class="login-box-msg">Edit Data Pasien</p></b>
-		<form action="#" name="modal_popup" enctype="multipart/form-data" method="post">
+		<form action="#" name="modal_popup" enctype="multipart/form-data" method="post"></form>
 
         <form action="pasien_edit.php" method="post">
 					<div class="form-group has-feedback" hidden>
